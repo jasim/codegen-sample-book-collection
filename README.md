@@ -29,6 +29,4 @@ To learn how you can integrate Tailwind to your project's build pipeline, see [U
 
 ## A note on code quality
 
-Codegen tries to generate clean HTML & CSS that you can fully understand, change, and own as your own code. But this depends largely on the input Sketch file that was used to generate the code. A precisely designed Sketch file that uses a consistent color palette and spacing guide will produce an equally good CSS codebase. To learn how you can achieve this, please read [Refactoring Sketch designs to improve generated code quality with Protoship Codegen](https://protoship.io/codegen/refactoring-sketch-designs.html).
-
-If you have any thoughts on how we can make this easier and improve the quality further we'd love to hear from you. Do write to us at [hello@protoship.io](mailto:hello@protoship.io).
+Codegen tries to generate clean HTML & CSS that you can fully understand, change, and own as your own code. If you have any thoughts on how we can make this easier and improve the quality further we'd love to hear from you. Do write to us at [hello@protoship.io](mailto:hello@protoship.io).
