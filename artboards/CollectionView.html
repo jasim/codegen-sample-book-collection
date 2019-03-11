@@ -8,6 +8,16 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="stylesheet" type="text/css" href="bundle.css" />
+    <style>
+      @media (min-width: 768px) {
+        .md\:grid-2-col {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          column-gap: 30px;
+          grid-row-gap: 30px;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -64,7 +74,7 @@
           </div>
         </div>
       </div>
-      <div class="items-start flex mx-auto max-w-1200 font-SF_Pro_Text">
+      <div class="items-start flex flex-col-reverse md:flex-row mx-auto max-w-1200 font-SF_Pro_Text">
         <div class="mr-64 pb-16 pl-48 text-18 text-right">
           <a
             href="javascript:void(0)"
@@ -116,8 +126,7 @@
           </a>
         </div>
         <div
-          class="mr-64"
-          style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; grid-row-gap: 40px;"
+          class="md:mr-64 md:grid-2-col"
         >
           <div class="max-w-280" style="position: relative;">
             <img
